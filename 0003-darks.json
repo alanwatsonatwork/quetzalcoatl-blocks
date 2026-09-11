@@ -12,7 +12,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 300 1",
+      "command": "darksvisit 1 300",
       "estimatedduration": "240s"
     },
     {
@@ -21,7 +21,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 240 1",
+      "command": "darksvisit 1 240",
       "estimatedduration": "240s"
     },
     {
@@ -30,7 +30,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 120 1",
+      "command": "darksvisit 1 120",
       "estimatedduration": "120s"
     },
     {
@@ -39,7 +39,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 60 3",
+      "command": "darksvisit 3 60",
       "estimatedduration": "180s"
     },
     {
@@ -48,7 +48,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 10 3",
+      "command": "darksvisit 3 10",
       "estimatedduration": "30s"
     }
   ],
