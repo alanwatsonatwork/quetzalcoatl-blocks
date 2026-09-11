@@ -1,0 +1,58 @@
+{
+  "project": {
+    "identifier": "0003",
+    "name": "darks"
+  },
+  "identifier": "1",
+  "name": "darks",
+  "visits": [
+    {
+      "identifier": "300",
+      "name": "darks: 300 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 300 1",
+      "estimatedduration": "240s"
+    },
+    {
+      "identifier": "240",
+      "name": "darks: 240 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 240 1",
+      "estimatedduration": "240s"
+    },
+    {
+      "identifier": "120",
+      "name": "darks: 120 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 120 1",
+      "estimatedduration": "120s"
+    },
+    {
+      "identifier": "60",
+      "name": "darks: 60 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 60 3",
+      "estimatedduration": "180s"
+    },
+    {
+      "identifier": "10",
+      "name": "darks: 10 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 10 3",
+      "estimatedduration": "30s"
+    }
+  ],
+  "constraints": {
+  },
+  "persistent": true
+}

@@ -30,3 +30,5 @@
 
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-without-witness-*
+
+load z 1 0003-darks
