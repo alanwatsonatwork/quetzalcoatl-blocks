@@ -1,0 +1,91 @@
+{
+    "project": {
+        "identifier": "0001",
+        "name": "twilight flats"
+    },
+    "identifier": "0",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "twilight flats in 656/3",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit 7 656/3",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "1",
+            "name": "twilight flats in 640/10",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit 7 640/10",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "2",
+            "name": "twilight flats in z",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit z",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "3",
+            "name": "twilight flats in i",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit i",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "4",
+            "name": "twilight flats in r",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit r",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "5",
+            "name": "twilight flats in g",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit g",
+            "estimatedduration": "2m"
+        },
+        {
+            "identifier": "6",
+            "name": "twilight flats in w",
+            "targetcoordinates": {
+                "type": "fixed",
+                "ha": "-3h",
+                "delta": "+45d"
+            },
+            "command": "twilightflatsvisit w",
+            "estimatedduration": "2m"
+        }
+    ],
+    "constraints": {
+        "minmoondistance": "30d",
+        "maxskybrightness": "daylight",
+        "minskybrightness": "civiltwilight"
+    }
+}
