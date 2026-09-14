@@ -22,6 +22,28 @@ do
   "visits": [
     {
       "identifier": "1000",
+      "name": "initial pointing correction near +1h +45d",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "ha"     : "+1h",
+        "delta"  : "+45d"
+      },
+      "command": "initialpointingcorrectionvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "1001",
+      "name": "initial pointing correction near -1h +45d",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "ha"     : "-1h",
+        "delta"  : "+45d"
+      },
+      "command": "initialpointingcorrectionvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "1002",
       "name": "coarse focus",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -33,7 +55,7 @@ do
       "estimatedduration": "1m"
     },
     {
-      "identifier": "1001",
+      "identifier": "1003",
       "name": "initial pointing correction near +1h +45d",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -44,7 +66,7 @@ do
       "estimatedduration": "1m"
     },
     {
-      "identifier": "1002",
+      "identifier": "1004",
       "name": "initial pointing correction near -1h +45d",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -52,30 +74,6 @@ do
         "delta"  : "+45d"
       },
       "command": "initialpointingcorrectionvisit",
-      "estimatedduration": "1m"
-    },
-    {
-      "identifier": "1003",
-      "name": "pointing correction",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$ALPHA",
-        "delta"  : "$DELTA",
-        "equinox": "2000"
-      },
-      "command": "pointingcorrectionvisit",
-      "estimatedduration": "1m"
-    },
-    {
-      "identifier": "1004",
-      "name": "focus",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$ALPHA",
-        "delta"  : "$DELTA",
-        "equinox": "2000"
-      },
-      "command": "focusvisit",
       "estimatedduration": "1m"
     }
   ],
