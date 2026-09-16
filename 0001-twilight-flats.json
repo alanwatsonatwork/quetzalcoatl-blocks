@@ -35,7 +35,7 @@
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit z",
+            "command": "twilightflatsvisit 7 z",
             "estimatedduration": "2m"
         },
         {
@@ -46,7 +46,7 @@
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit i",
+            "command": "twilightflatsvisit 7 i",
             "estimatedduration": "2m"
         },
         {
@@ -57,7 +57,7 @@
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit r",
+            "command": "twilightflatsvisit 7 r",
             "estimatedduration": "2m"
         },
         {
@@ -68,7 +68,7 @@
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit g",
+            "command": "twilightflatsvisit 7 g",
             "estimatedduration": "2m"
         },
         {
@@ -79,7 +79,7 @@
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit w",
+            "command": "twilightflatsvisit 7 w",
             "estimatedduration": "2m"
         }
     ],
