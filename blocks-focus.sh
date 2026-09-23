@@ -52,7 +52,7 @@ do
         "equinox": "2000"
       },
       "command": "coarsefocusvisit",
-      "estimatedduration": "1m"
+      "estimatedduration": "5m"
     },
     {
       "identifier": "1003",
@@ -74,6 +74,30 @@ do
         "delta"  : "+45d"
       },
       "command": "initialpointingcorrectionvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "1005",
+      "name": "focus",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$ALPHA",
+        "delta"  : "$DELTA",
+        "equinox": "2000"
+      },
+      "command": "focusvisit",
+      "estimatedduration": "3m"
+    },
+    {
+      "identifier": "0",
+      "name": "focus witness",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$ALPHA",
+        "delta"  : "$DELTA",
+        "equinox": "2000"
+      },
+      "command": "focuswitnessvisit",
       "estimatedduration": "1m"
     }
   ],
