@@ -39,14 +39,14 @@
             "estimatedduration": "2m"
         },
         {
-            "identifier": "3",
-            "name": "twilight flats in i",
+            "identifier": "5",
+            "name": "twilight flats in g",
             "targetcoordinates": {
                 "type": "fixed",
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit 7 i",
+            "command": "twilightflatsvisit 7 g",
             "estimatedduration": "2m"
         },
         {
@@ -61,14 +61,14 @@
             "estimatedduration": "2m"
         },
         {
-            "identifier": "5",
-            "name": "twilight flats in g",
+            "identifier": "3",
+            "name": "twilight flats in i",
             "targetcoordinates": {
                 "type": "fixed",
                 "ha": "-3h",
                 "delta": "+45d"
             },
-            "command": "twilightflatsvisit 7 g",
+            "command": "twilightflatsvisit 7 i",
             "estimatedduration": "2m"
         },
         {
