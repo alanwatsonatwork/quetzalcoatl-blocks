@@ -13,16 +13,16 @@
         "type": "idle"
       },
       "command": "darksvisit 1 300",
-      "estimatedduration": "240s"
+      "estimatedduration": "300s"
     },
     {
-      "identifier": "240",
-      "name": "darks: 240 seconds",
+      "identifier": "180",
+      "name": "darks: 180 seconds",
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 1 240",
-      "estimatedduration": "240s"
+      "command": "darksvisit 1 180",
+      "estimatedduration": "180s"
     },
     {
       "identifier": "120",
