@@ -31,5 +31,9 @@
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-without-witness-*
 
+# Polarimetric standards
+load k 1 0021-standard-unpolarized-*
+load k 1 0022-standard-polarized-*
+
 load z 1 0001-twilight-flats
 load z 5 0003-darks
