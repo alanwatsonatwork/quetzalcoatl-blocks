@@ -1,0 +1,28 @@
+{
+    "project": {
+        "identifier": "3002",
+        "name": "NGC 2261"
+    },
+    "identifier": "0",
+    "name": "NGC 2261",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "06:39:10.0",
+                "delta": "+08:45:00",
+                "equinox": "2000"
+            },
+            "command": "gridvisit 1 5 2 60 60as r",
+            "estimatedduration": "12m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minmoondistance": "5d",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "false"
+}

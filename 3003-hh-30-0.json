@@ -1,0 +1,28 @@
+{
+    "project": {
+        "identifier": "3003",
+        "name": "HH 30"
+    },
+    "identifier": "0",
+    "name": "HH 30",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "04:31:37.51",
+                "delta": "+18:12:24.4",
+                "equinox": "2000"
+            },
+            "command": "gridvisit 1 5 1 60 60as {r i}",
+            "estimatedduration": "12m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minmoondistance": "5d",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "false"
+}
