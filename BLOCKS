@@ -31,6 +31,10 @@
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-without-witness-*
 
+load f0 1 3001-m1-0
+load f1 1 3002-ngc-2261-0
+load f2 2 3003-hh-30-0
+
 # Polarimetric standards
 load k 1 0021-standard-unpolarized-*
 load k 1 0022-standard-polarized-*
